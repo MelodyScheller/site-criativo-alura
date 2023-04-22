@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+    background-color: #7E3DB7;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+ 
+.cabecalho-imagem{
+     width: 20%; 
+}
+
+ .cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font: optional 24px; 
+  }
+
+  .Sobrealoja-imagem{ 
+      width: 30%;  
+ }
+
+.Sobrealoja{
+     background-image:linear-gradient(#7E3DB7,#742cb3);
+     color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding:24px 0 ;
+}
+.Sobrealoja-div-conte{
+    width: 35%;
+}
+.Sobrealoja-titulo{
+    padding:24px 0 ;
+}
+
+.Sobrealoja-imagem{
+   width: 120px; 
+}
+
+.Sobrealoja-icone{
+    width: 24px;
+}
+
+.Sobrealoja-div{
+  text-align:center;
+}
+
+.Sobrealoja-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.Sobrealoja-todos{
+   display: grid;
+grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: #7E3DB7; ;
+    text-align: center ;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
+}
